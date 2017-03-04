@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OsuWallpaper_Change
+﻿namespace OsuWallpaper_Change
 {
     class Program
     {
         static void Main(string[] args)
         {
-        }
+            WallpaperChanger skinchanger = new WallpaperChanger();
+            skinchanger.changeWallpaper();        }
     }
 }
