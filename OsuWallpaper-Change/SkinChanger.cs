@@ -23,7 +23,7 @@ namespace OsuWallpaper_Change
                 wallpapers[i] = wallpaperPath + string.Format("Wallpaper-{0}", i + 1 + ".jpg");
             }
 
-            randomWallpaper = wallpapers[random.Next(0, wallpapers.Length - 1)];
+            randomWallpaper = wallpapers[random.Next(0, wallpapers.Length)];
 
             osu.Apply(randomWallpaper, skinPath);
         }
