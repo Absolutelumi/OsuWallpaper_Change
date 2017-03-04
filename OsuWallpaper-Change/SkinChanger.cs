@@ -26,6 +26,7 @@ namespace OsuWallpaper_Change
             randomWallpaper = wallpapers[random.Next(0, wallpapers.Length)];
 
             osu.Apply(randomWallpaper, skinPath);
+            osu.Start(); 
         }
     }
 }
